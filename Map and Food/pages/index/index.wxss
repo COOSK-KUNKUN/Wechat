@@ -1,0 +1,56 @@
+/**index.wxss**/
+
+/*
+.usermotto {
+  margin-top: 200px;
+}
+
+.but{
+  display: block;
+  position:absolute;
+  border: none;
+  left:85px;
+  top:50px;
+  height: 40px;
+  width: 160px;
+}
+
+
+.bottom{
+  padding: 30rpx 0;
+  display: flex;
+  width: 100%;
+}
+
+.text1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.ima{
+  text-align: center; 
+  width: 200px; 
+  border: green solid 1px;
+  margin-top: 200rpx;
+}
+*/
+
+.head {
+  flex-direction: row;
+  margin-top: 40;
+  padding: 50rpx;
+  line-height: 1;
+}
+
+.mainView{
+  display:block;
+  margin:0;
+}
+
+.mapView {
+  align-items: center;
+  width: 100%; 
+  height: 375px;
+}

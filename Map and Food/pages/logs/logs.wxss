@@ -1,0 +1,73 @@
+.btn1{
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 50rpx;
+  background-color: white;
+  color: #999999;
+  border-radius: 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+}
+
+.btnImg {
+  width: 130rpx;
+  height:130rpx;
+}
+
+.btn1::after {
+  border: 0; 
+}
+
+.bottom{
+  padding: 30rpx 0;
+  display: flex;
+  width: 100%;
+}
+.bottom text{
+  display: inline-block;
+  flex-grow: 1;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+
+.text1{
+  font-size: 80rpx;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:300rpx;
+  
+}
+
+
+.text-blue{
+  color: #5CA4A9;
+  
+}
+.text-pink{
+  color: #E5989B;
+}
+.text-green{
+  color: rgb(29, 202, 96);
+}
+.text-yellow{
+  color: rgb(111, 36, 197);
+}
+.text-orange{
+  color: #E76F51;
+  
+}
+.text-grey{
+  color: rgb(214, 90, 166);
+}
+.text-red{
+  color: #ED6A5A;
+}
+.text-caolv{
+  color: rgb(236, 136, 20);
+}

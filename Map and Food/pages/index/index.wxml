@@ -1,0 +1,34 @@
+<!--index.wxml-->
+
+<!--
+<view>
+  <button class='but' bindtap='downLoadImage' hover-class='active'>
+    <view class='text1'>测试</view>
+  </button>
+
+  <view class='bottom'>
+    <image class='ima' src="{{imageUrl}}" mode="aspectFill"></image>
+  </view>
+</view>
+-->
+
+<view class='head'>
+  <button bindtap='openLocation' class='button1'>打开我的位置</button>
+  <button bindtap='starRun'>开始跑步</button>
+  <button bindtap='stopRun'>暂停跑步</button>
+  <text>\n已经跑了：{{meters}}km</text>
+  <text>\n已用时间：{{time}}</text>
+</view>
+
+<view class="mainView">
+  <map 
+      class='mapView'
+      latitude='{{latitude}}'
+      longitude='{{longitude}}'
+      markers='{{markers}}'
+      covers='{{covers}}' 
+      >
+  </map>
+</view>
+
+
